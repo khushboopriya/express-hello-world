@@ -1,3 +1,3 @@
 # express-url-shortner
 
-https://express-hello-world-webapp.herokuapp.com/
+https://url-shortner-expressjs.herokuapp.com/
