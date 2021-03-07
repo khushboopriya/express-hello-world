@@ -12,7 +12,8 @@ router.get('/',(req,res)=>{
     // To get the list of all urls
     const urlList = [];
     Object.keys(urls).forEach(urlId =>{
-        urlList.push({id:urlId,long_url:long_url })
+        // urlList.push({id:urlId,long_url:long_url })
+        urlList.push({id:urlId,long_url:urls[urlId]});
     });
     res.send(urlList);
 });
@@ -22,7 +23,7 @@ router.post('/',(req,res)=>{
     const long_url = req.body.long_url;
     const id = shortid.generate();
     urls[id] = long_url;
-    res.status[201].send({id});
+    res.status(201).send({id});
 });
 
 router.get('/:id',(req,res) =>{

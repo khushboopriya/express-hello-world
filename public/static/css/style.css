@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    background-color: #8093a7a2;
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(77, 80, 83);
+  }
+  
+  
+  #shorten-button,
+  #all-button {
+      background-color: #276ef1;
+      color: #fff;
+      font-size: 16px;
+      line-height: 2; 
+      border-radius: 3px;
+      cursor: pointer;
+      border: none;
+      font-family: inherit;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      min-width: 100px;
+      max-width: 100px;   
+  }
+  
+  #copy-button {
+    background-color: #1024d4;
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+    
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 100px;
+    max-width: 100px;
+    
+    }
+  
+    .input-output{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    }
+  
+    textarea{
+      height: 25px;
+      width: 400px;
+      border-radius: 3px;
+    }
+  
+    #all-urls{
+      
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      
+    }
+  
+    /*
+    @media screen and (max-width: 1011px) {
+      
+      #all-urls{
+         
+        display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; 
+      }
+  }
+  @media screen and (max-width: 925px){
+    
+    #all-urls{
+        
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 790px){
+    
+    #all-urls{
+       
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+   @media screen and (max-width: 655px) {
+    
+    #all-urls{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;   
+      }
+  }
+  @media screen and (max-width: 475px) {
+    textarea{ 
+      width: 250px; 
+    }
+    
+    
+  #all-urls{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      }
+  }
+  @media screen and (max-width: 415px) {
+    
+  #all-urls{
+    display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  */
+  @media screen and (max-width: 475px) {
+  
+    textarea{ 
+      width: 250px; 
+    }
+    #all-urls{
+      margin-left: 40px;
+      margin-right: 40px;
+      }
+  
+  }
+  
+  @media screen and (max-width: 390px) {
+  
+    
+    #all-urls{
+      margin-left: 70px;
+      margin-right: 50px;
+      min-width: 250px;
+      max-width: 250px;
+      }
+  
+  }

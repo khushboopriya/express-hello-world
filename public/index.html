@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <script defer src="static/js/url-shortner.js"></script>
+  <title>URL Shortener</title>
 </head>
 <body>
-    index
+
+  <div class="input-output">
+  <h1>URL SHORTENER</h1>
+   
+    <div>
+      <textarea type="text" id="input" placeholder="Long URL" ></textarea>  
+    </div>
+
+    <div>
+    <input type="button" id="shorten-button" value= "Shorten"> 
+  </div>
+
+     <div>   
+      <textarea type="text" id="output" placeholder="Shortened URL" readonly></textarea>
+      </div>
+
+      <div>
+        <input type="button" id="copy-button" value= "Copy">
+      </div>
+
+      <div>
+        <input type="button" id="all-button" value= "All URLS">
+      </div>
+
+      <h3 >Sample URLS</h3>
+    </div>
+    
+    
+    <div  id="all-urls" >
+    
+    </div>
+    
+  
 </body>
 </html>
