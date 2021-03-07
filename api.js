@@ -5,8 +5,8 @@ const router = express.Router();
 
 router.use('/urls',urls);
 
-router.get('/',(req,res)=>{
-    res.send('message')
-})
+// router.get('/',(req,res)=>{
+//     res.send('message')
+// })
 
 module.exports = router;

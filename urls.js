@@ -3,7 +3,10 @@ const shortid = require('shortid')
 
 const router = express.Router();
 
-const urls = {}
+// const urls = {}
+
+const  { urls }  = require('./urls_data');//this makes the dictionary global
+
 
 router.get('/',(req,res)=>{
     // To get the list of all urls
@@ -20,7 +23,7 @@ router.post('/',(req,res)=>{
     const id = shortid.generate();
     urls[id] = long_url;
     res.status[201].send({id});
-})
+});
 
 router.get('/:id',(req,res) =>{
     // To get the short url or long url from its id
